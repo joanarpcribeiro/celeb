@@ -31,3 +31,15 @@
     transform: rotate(360deg);
   }
 }
+
+.celebImg{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  vertical-align: middle
+}
+
+ul{
+  text-align: left;
+  list-style: none;
+}
