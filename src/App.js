@@ -23,6 +23,13 @@ export default class App extends Component {
   render(){
     return (
       <div className="App">
+        <nav class="navbar navbar-dark bg-dark mb-3">
+          <div class="container">
+            <Link class="navbar-brand" href="/">
+              Movies Celebrities
+            </Link>
+          </div>
+        </nav>
         <ul>
         {this.state.celebrities.map( celebrity =>
           //console.log("DATA DETAILS",celebrity.name)
